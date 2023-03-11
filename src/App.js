@@ -1,7 +1,9 @@
+import ContainerComponent from './components/ContainerComponent';
+
 function App() {
   return (
     <div>
-      Hi
+      <ContainerComponent />
     </div>
   );
 }
