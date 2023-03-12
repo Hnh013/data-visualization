@@ -54,7 +54,6 @@ export function createChartAxis(name, data = [], type = "NA", nameGap = 30, name
     if (data.length < 1) {
         ({ data, ...myObject } = myObject);
     }
-    console.log(myObject);
     return myObject;
 }
 
