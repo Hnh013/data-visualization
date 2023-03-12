@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# TrishnaUI<a name="top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Contents
 
-## Available Scripts
+1. **[Project Title & description](#data-visualization)**
+2. **[Technologies Used](#technologies-used)**
+3. **[Libraries used](#libraries-used)**
+4. **[Project Snapshots](#project-snapshots)**
+5. **[Local Setup and running in Local](#local-setup-and-running-in-local)**
 
-In the project directory, you can run:
+## 1. Data Visualization<a name="data-visualization"></a>
 
-### `yarn start`
+- The data-visualization project aims to show to relation between two properties for a specific wine, plotted using graphical representaion - bar and scatter charts.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 2. Technologies Used<a name="technologies-used"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- The technology used is React.js, a javascript library used to create fast, component-based web applications.
 
-### `yarn test`
+## 3. Libraries used<a name="libraries-used"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- yarn : for cration of react app and installing dependencies.
+- echarts-for-react : for plotting graphs and charts from given data.
 
-### `yarn build`
+## 4. Project Snapshots<a name="project-snapshots"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Following are some snapshots of the project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Bar Chart Desktop view
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![bar chart desktop](./public/images/bar_chart_desktop_view.png)
 
-### `yarn eject`
+#### Bar Chart Mobile view
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![bar chart mobile](./public/images/bar_chart_mobile_view.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Scatter Chart Desktop view
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![scatter chart desktop](./public/images/scatter_chart_desktop_view.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Scattter Chart Mobile view
 
-## Learn More
+![scatter chart mobile](./public/images/scatter_chart_mobile_view.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 5. Local setup and running in local<a name="local-setup-and-running-in-local"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- The app is made in React.js with additional dependencies such as echarts-for-react.
+  Steps to run the app at your local machine
 
-### Code Splitting
+1. Run the command on CLI/command prompt to clone the repo on your local machine in the directory of your choice
+   `https://github.com/Hnh013/data-visualization.git`
+2. Take the latest pull by typing following command on CLI/command prompt
+   `git pull origin main`
+3. Run the command to install all the required dependencies for the project to run it locally  
+   `yarn install`
+4. Run the project in local environment by running the following command  
+   `yarn start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Back To Top](#top)
