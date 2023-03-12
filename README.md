@@ -4,7 +4,7 @@
 
 1. **[Project Title & description](#data-visualization)**
 2. **[Technologies Used](#technologies-used)**
-3. **[Libraries used](#libraries-used)**
+3. **[Dependencies](#dependencies)**
 4. **[Project Snapshots](#project-snapshots)**
 5. **[Local Setup and running in Local](#local-setup-and-running-in-local)**
 
@@ -15,10 +15,10 @@
 ## 2. Technologies Used<a name="technologies-used"></a>
 
 - The technology used is React.js, a javascript library used to create fast, component-based web applications.
+- The application is created using yarn
 
-## 3. Libraries used<a name="libraries-used"></a>
+## 3. Dependencies<a name="dependencies"></a>
 
-- yarn : for cration of react app and installing dependencies.
 - echarts-for-react : for plotting graphs and charts from given data.
 
 ## 4. Project Snapshots<a name="project-snapshots"></a>
@@ -29,17 +29,9 @@ Following are some snapshots of the project
 
 ![bar chart desktop](./public/images/bar_chart_desktop_view.png)
 
-#### Bar Chart Mobile view
-
-![bar chart mobile](./public/images/bar_chart_mobile_view.png)
-
 #### Scatter Chart Desktop view
 
 ![scatter chart desktop](./public/images/scatter_chart_desktop_view.png)
-
-#### Scattter Chart Mobile view
-
-![scatter chart mobile](./public/images/scatter_chart_mobile_view.png)
 
 ## 5. Local setup and running in local<a name="local-setup-and-running-in-local"></a>
 
